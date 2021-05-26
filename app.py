@@ -7,7 +7,7 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 # Connection with Mongo_Db
-uri = "mongodb+srv://ricardofreitas:0BuxJlKWA0nwmoG4@google-cloud-sp.zgqqa.mongodb.net/test"
+uri = ""
 client = MongoClient(uri)
 db = client.Curriculos
 
